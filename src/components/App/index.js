@@ -5,6 +5,7 @@ export default function App({ handleOnSubmit, latestUser, users }) {
   return (
     <div className="App">
       {/* add welcome message */}
+      <div id="greetingUsers" />
       <p>Add your name below to register!</p>
       <form onSubmit={handleOnSubmit}>
         <input type="text" name="user" />
